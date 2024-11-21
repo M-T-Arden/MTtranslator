@@ -23,7 +23,7 @@
 ### **系统要求**
 
 - **操作系统：** Windows（需启用实时字幕功能）。
-- **语言** Python 3.11，依赖库见requirements。
+- **语言：** Python 3.11，依赖库见requirements。
 - **内存：** 至少 2GB 可用内存。
 - **存储空间：** 软件及模型文件需约 1GB 空闲存储空间。
 
@@ -39,7 +39,7 @@
   - 绿色按钮：**开始翻译**
   - 橙色按钮：**暂停翻译**
   - 红色按钮：**停止翻译**
-3. 翻译内容会显示在程序窗口中，原文会自动保存到 `caption` 文件夹供后面对照参考。
+3. 翻译内容会显示在程序窗口中，原文会自动保存供后面对照参考，每次在开始运行后会弹出窗口选择保存位置到自定义文件夹。
   
 4. 因为实时字幕的断句有时候会出问题，翻译的质量也会受到影响，可能会一整段一起翻译或者仅有几个字词。
    本身使用的是离线大模型进行翻译，相当于是机翻。**翻译仅供参考🥺**
@@ -66,6 +66,9 @@
 - **PyQt** 用于构建图形界面。
 - **ChatGPT** 和 **Claude** 在调试和优化过程中提供了重要帮助。
 ---
+## 许可证
+本软件个人免费使用，根据专有许可证分发。请参阅 [LICENSE_CN](./LICENSE_CN) 文件了解详细信息。
+
 感谢使用 MTtranslator！ 
 如遇到问题或有建议，请随时联系我。😊
 
@@ -138,6 +141,8 @@ This project utilizes:
 - Guidance and debugging support from **ChatGPT** and **Claude**.
 
 ---
+## License
+This software is free for personal and educational use under a proprietary license. Please see the [LICENSE](./LICENSE) file for details. 
 
 Thank you for trying MTtranslator!  
 If you encounter any issues or have suggestions, feel free to contact me. 😊
