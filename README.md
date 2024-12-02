@@ -51,7 +51,7 @@
 
 1. **下载程序**
   
-  - 在 [Releases](./releases) 页面获取最新版本的 `MTtranslator.exe` 文件。
+  - 在 [Releases](https://github.com/M-T-Arden/MTtranslator/releases) 页面获取最新版本的 `MTtranslator.exe` 文件。
 2. **运行程序**
   
   - 双击 `MTtranslator.exe` 即可启动。
