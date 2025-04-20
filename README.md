@@ -1,6 +1,6 @@
 # MTtranslator
 
-你好！我是 **M.T. Arden**，本翻译工具的开发者🤓。这个软件在 **ChatGPT** 和 **Claude** 的帮助下完成，使用了免费的翻译模型 **Helsinki-NLP/opus-mt-en-zh**。感谢所有为此项目提供帮助的人！
+你好！我是 **M.T. Arden**，本翻译工具的开发者🤓。这个软件在 **ChatGPT** 和 **Claude** 的帮助下完成，现已更换为 Argos Translate 翻译模型（v1.2之前是**Helsinki-NLP/opus-mt-en-zh**），支持更快更稳的离线翻译体验。感谢所有为此项目提供帮助的人！
 
 ---
 ## **功能特点**
@@ -11,9 +11,13 @@
 2. **离线操作**
   
   - 翻译完全离线进行，保证隐私安全。但翻译质量仅供参考🫡。去学英语比这靠谱。
-3. **仅限 Windows 系统**
+3. **支持保存原字幕**
+  
+  - **Windows 的实时字幕功能 (Live Captions)**不支持识别的字幕保存，本软件使用时支持保存字幕并且会带上时间戳（非外界时间）。
+4. **仅限 Windows 系统**
   
   - 本软件依赖 **Windows 的实时字幕功能 (Live Captions)**，因此只能在具备此功能的 Windows 系统上运行。
+
 
 ---
 
@@ -53,7 +57,11 @@
   - 在 [Releases](https://github.com/M-T-Arden/MTtranslator/releases) 页面获取最新版本的 `MTtranslator.exe` 文件。
 2. **运行程序**
   
-  - 双击 `MTtranslator.exe` 即可启动。
+  - 双击运行安装程序，按提示完成安装
+  - 可选择创建桌面快捷方式，或从开始菜单运行 MTtranslator
+  - 卸载可通过控制面板或“开始菜单 > 卸载 MTtranslator”完成
+
+
 
 ---
 
@@ -61,7 +69,7 @@
 
 本项目使用了以下工具和资源：
 
-- [Helsinki-NLP/opus-mt-en-zh](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh) 提供翻译支持。
+- **Argos Translate** 提供翻译支持。
 - **PyQt** 用于构建图形界面。
 - **ChatGPT** 和 **Claude** 在调试和优化过程中提供了重要帮助。
 ---
@@ -74,7 +82,7 @@
 ---
 
 # MTtranslator
-Hi there! This is **M.T. Arden**, the developer of this translator application. I created this tool with the help of **ChatGPT** and **Claude**, and it uses the free translation model **Helsinki-NLP/opus-mt-en-zh**. Many thanks to everyone who contributed to its development!
+Hi there! This is **M.T. Arden**, the developer of this translator application. The application now uses **Argos Translate**, providing better offline translation performance. Big thanks to ChatGPT, Claude, and all open-source contributors who supported this project! Many thanks to everyone who contributed to its development!
 
 ---
 
@@ -127,7 +135,9 @@ Hi there! This is **M.T. Arden**, the developer of this translator application. 
   - Get the latest version of `MTtranslator.exe` from the [Releases](./releases) section.
 2. **Run the Application**
   
-  - Double-click `MTtranslator.exe` to start.
+  - Run the installer and follow prompts
+  - Launch from desktop shortcut or Start Menu
+  - Uninstall via Control Panel or "Uninstall MTtranslator" shortcut
 
 ---
 
